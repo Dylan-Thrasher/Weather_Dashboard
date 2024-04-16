@@ -6,7 +6,7 @@
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
 </head>
 <body>
     <header class="flex justify-center h-24 bg-purple-500">
@@ -15,10 +15,10 @@
     <main class="flex flex-row">
     <nav class="flex flex-col h-full">
         <h2 class="text-3xl">Search for a City:</h2>
-        <form id="search flex-col">
+        <form id="flex-col">
             <input type="text" class="form-input" name="city" placeholder="San Diego">
             <br>
-            <button type="submit" class="btn bg-blue-500 text-white font-bold py-2 px-4 rounded">Search</button>
+            <button type="submit" id="search"  class="btn bg-blue-500 text-white font-bold py-2 px-4 rounded">Search</button>
         </form>
     </nav>
     <article class="flex">
